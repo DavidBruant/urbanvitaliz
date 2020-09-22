@@ -1,0 +1,23 @@
+{
+  "name": "urbanvitaliz",
+  "version": "1.0.0",
+  "description": "Un service public numérique de recommandations d'actions pour réduire l'impact de l'environnement sur sa santé.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBruant/urbanvitaliz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBruant/urbanvitaliz/issues"
+  },
+  "homepage": "https://github.com/DavidBruant/urbanvitaliz#readme",
+  "dependencies": {
+    "mongodb": "^3.6.2"
+  }
+}
