@@ -11,7 +11,7 @@
         <ul>
             {#each relevantResources as resource}
             <li>
-                {resource.titre}
+                {resource.attributes.phrase_catch}
             </li>
             {/each}
         </ul>

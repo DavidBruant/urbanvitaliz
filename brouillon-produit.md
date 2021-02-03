@@ -1,6 +1,9 @@
 ---
 layout: empty
 scripts:
+    - src: "./scripts/dependencies/buffer.js"
+      defer: true
+      crossorigin: "anonymous"
     - src: "./build/assistant.rollup.js"
       defer: true
       crossorigin: "anonymous"
