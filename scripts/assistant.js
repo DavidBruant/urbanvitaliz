@@ -31,7 +31,7 @@ function étapeFilterChange(étape){
     else
         state.filters.étapes.add(étape)
 
-    state.relevantResources = findRelevantResources(allResources, state.filters)
+    state.relevantResources = findRelevantResources(state.allResources, state.filters)
 
     render()
 }
@@ -42,7 +42,7 @@ function thématiqueFilterChange(thématique){
     else
         state.filters.thématiques.add(thématique)
 
-    state.relevantResources = findRelevantResources(allResources, state.filters)
+    state.relevantResources = findRelevantResources(state.allResources, state.filters)
 
     render()
 }
