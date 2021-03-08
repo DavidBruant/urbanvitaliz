@@ -5,21 +5,12 @@ layout: home
 <style>
     @import url(https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans+Condensed:300);
 
-    /*
-    padding: 1em;    tous les côtés
-    padding: 1em 2em;    haut-bas  -  gauche-droite
-    padding: 1em 2em 3em 4em; Top Right Bottom Left (TRouBLe)
-
-    vw : viewport width (100 = largeur totale)
-    vh : viewport height
-    rem : root (<body>) em
-    em : largeur d'un M dans la taille de l'élément actuel
-
-    */
+    
     main > section {
         width: 100%;
         padding: 0 calc( max(5px, ( 100vw - 50rem ) / 2 ));
     }
+    
 
     .introduction{
         position: relative;
@@ -63,7 +54,7 @@ layout: home
         color: #33475b;
     }
 
-    .introduction a.btn-info {
+    .introduction a.rf-btn {
         color: #fff;
         background-color: #33475b;
         border: 0;
@@ -108,7 +99,8 @@ layout: home
     .process li h1{
         position: relative;
 
-        font-size: 0.9rem;
+        font-size: 0.9rem;    
+        line-height: 2em;
         font-weight: 600;
         white-space: pre;
 
@@ -122,8 +114,8 @@ layout: home
 
         right: 0;
 
-        width: 2rem;
-        height: 2rem;
+        width: 2em;
+        height: 2em;
 
         background-color: white;
         z-index: 1;
@@ -141,15 +133,15 @@ layout: home
 
     .process li h1 .figure{
         display: inline-block;
-        width: 2rem;
-        height: 2rem;
+        width: 2.3em;
+        height: 2.3em;
 
         border-radius: 50%;
 
         background-color: #33475b;
 
         text-align: center;
-        line-height: 2rem;
+        line-height: 2.3em;
 
         transform: translateX(-40%);
 
@@ -165,13 +157,12 @@ layout: home
         position: relative;
     }
 
-    .process a.btn-info {
+    .process a.rf-btn {
         color: #fff;
         background-color: #33475b;
         border: 0;
 
         text-decoration: none;
-        font-size: 1.3rem;
 
         align-self: center;
     }
@@ -266,7 +257,7 @@ layout: home
 <section class="introduction">
     <h1>Faites passer votre friche à l'étape suivante</h1>
     <h2>Un outil numérique et gratuit qui aiguille les collectivités dans leur projet de réhabilitation de foncier à l’abandon</h2>
-    <a class="btn btn-info" href="http://enqueteur.nord-picardie.cerema.fr/index.php/515215?lang=fr">Commencer</a>
+    <a class="rf-btn rf-btn--lg" href="http://enqueteur.nord-picardie.cerema.fr/index.php/515215?lang=fr">Commencer</a>
 </section>
 
 <section class="explanation">
@@ -303,7 +294,7 @@ layout: home
             </p>
         </li>
     </ol>
-    <a class="btn btn-info mb-2" href="http://enqueteur.nord-picardie.cerema.fr/index.php/515215?lang=fr">Commencer</a>
+    <a class="rf-btn rf-btn--lg" href="http://enqueteur.nord-picardie.cerema.fr/index.php/515215?lang=fr">Commencer</a>
 </section>
 
 <section class="cards">
