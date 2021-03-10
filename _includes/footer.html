@@ -1,6 +1,8 @@
 <!--
   copié depuis le code source de https://beta.gouv.fr/startups/lapins.html
 -->
+
+<!--
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
 
@@ -50,4 +52,93 @@
       </ul>
     </div>
     <div class="footer__links">     
+</footer>
+-->
+
+<!--
+  Adapté librement depuis le design system de l'état v0.5.3
+  https://gouvfr.atlassian.net/wiki/spaces/DB/pages/222331413/Pied+de+page+-+Footer
+-->
+
+<style>
+  .rf-footer img{
+    max-height: 100%;
+  }
+</style>
+
+<footer class="rf-footer" role="contentinfo" id="footer">
+    <div class="rf-container">
+        <div class="rf-footer__body">
+            <div class="rf-footer__brand">
+                <a class="rf-logo" href="#" title="république française">
+                    <span class="rf-logo__title">république
+                        <br>française</span>
+                </a>
+
+                <a class="rf-footer__brand-link" href="https://www.cerema.fr/">
+                  <img class="rf-footer__logo" src="{{ "./assets/images/Logo_CEREMA.png" | relative_url}}" alt="Logo CEREMA">
+                </a>
+            </div>
+            <div class="rf-footer__content">
+                <!--
+                  <p class="rf-footer__content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                -->
+                <ul class="rf-footer__content-list">
+                    <li class="rf-footer__content-item">
+                        <a class="rf-footer__content-link" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
+                    </li>
+                    <li class="rf-footer__content-item">
+                        <a class="rf-footer__content-link" href="https://gouvernement.fr">gouvernement.fr</a>
+                    </li>
+                    <li class="rf-footer__content-item">
+                        <a class="rf-footer__content-link" href="https://service-public.fr">service-public.fr</a>
+                    </li>
+                    <li class="rf-footer__content-item">
+                        <a class="rf-footer__content-link" href="https://data.gouv.fr">data.gouv.fr</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rf-footer__partners">
+          <h4 class="rf-footer__partners-title">Nos partenaires</h4>
+          <div class="rf-footer__partners-logos">
+              <div class="rf-footer__partners-main">  
+                <a class="footer__partners-link" href="#">
+                  <img class="rf-footer__logo" src="{{ "./assets/images/logo beta.gouv.png" | relative_url}}" alt="logo beta.gouv">
+                </a>
+              </div>
+              <div class="rf-footer__partners-sub">
+                  <a class="footer__partners-link" href="#">
+                      <img class="rf-footer__logo" src="{{ "./assets/images/Logo-France-Relance.png" | relative_url}}" alt="logo France Relance">
+                  </a>
+              </div>
+          </div>
+        </div>
+        <div class="rf-footer__bottom">
+            <ul class="rf-footer__bottom-list">
+                <!--
+                <li class="rf-footer__bottom-item">
+                    <a class="rf-footer__bottom-link" href="#">Plan du site</a>
+                </li>
+                -->
+                <li class="rf-footer__bottom-item">
+                  <a class="rf-footer__bottom-link">Accessibilité: non</a>
+                </li>
+                <li class="rf-footer__bottom-item">
+                  <a class="rf-footer__bottom-link" href="https://github.com/betagouv/urbanvitaliz">Code source</a>
+                </li>
+                <!--
+                <li class="rf-footer__bottom-item">
+                    <a class="rf-footer__bottom-link" href="#">Mentions légales</a>
+                </li>
+                <li class="rf-footer__bottom-item">
+                    <a class="rf-footer__bottom-link" href="#">Données personnelles</a>
+                </li>
+                <li class="rf-footer__bottom-item">
+                    <a class="rf-footer__bottom-link" href="#">Gestion des cookies</a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </div>
 </footer>
